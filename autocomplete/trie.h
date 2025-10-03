@@ -57,7 +57,9 @@ Addtionally, you can also try to incorporate different things into context to ta
 */
 
 #include <string>
-
+#include <algorithm>
+#include <vector>
+#include <unordered_map>
 // Alphabet size (# of symbols)
 #define ALPHABET_SIZE (26)
 
@@ -78,13 +80,14 @@ class Trie
 {
     public:
     TrieNode* root;
+    std::unordered_map<std::string, int> count_map;
 
     Trie();
     struct TrieNode* getNode(void);
     void insert(struct TrieNode* root, const std::string key);
     bool search(struct TrieNode *root, std::string key);
     bool isLastNode(struct TrieNode* root);
-    void suggestionsRec(struct TrieNode* root,
+   std::vector<std::string>  suggestionsRec(struct TrieNode* root,
 					std::string currPrefix);
     int printAutoSuggestions(TrieNode* root, const std::string query);
     void processContext();

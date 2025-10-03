@@ -4,3 +4,4 @@ temp.cpp
 .DS_Store
 temp
 tmp.txt
+*.o
