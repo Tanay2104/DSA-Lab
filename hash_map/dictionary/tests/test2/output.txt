@@ -1,0 +1,10 @@
+Hash Value: 18
+Free Location: 18
+Successfully Added
+Hash Value: 57
+Free Location: 57
+Successfully Added
+1 has value: 7
+2 has value: 8
+Entry removed Successfully
+1 not Found

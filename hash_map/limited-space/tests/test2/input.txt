@@ -1,0 +1,7 @@
+lru
+3
+INS,a,1
+INS,b,2
+INS,c,3
+FIND,a
+INS,d,4

@@ -1,0 +1,10 @@
+fifo
+5
+INS,a,1
+FIND,a
+INS,b,2
+FIND,b
+INS,c,3
+INS,d,4
+INS,e,5
+INS,f,6

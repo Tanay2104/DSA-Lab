@@ -1,0 +1,8 @@
+lru
+5
+DEL,f
+INS,a,1
+INS,b,2
+INS,a,5
+INS,c,3
+INS,d,4

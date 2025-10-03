@@ -1,0 +1,6 @@
+fifo
+3
+INS,a,1
+INS,b,2
+INS,c,3
+INS,d,4
