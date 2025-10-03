@@ -1,0 +1,5 @@
+Old query: i love ca#
+Substr: i at j=1
+Substr: love at j=6
+New query: lovei
+No string found with this prefix

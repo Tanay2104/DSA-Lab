@@ -1,0 +1,6 @@
+Old query: i really love an#
+Substr: i at j=1
+Substr: really at j=8
+Substr: love at j=13
+New query: lovereally
+No string found with this prefix

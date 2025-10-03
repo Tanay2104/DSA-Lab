@@ -1,0 +1,5 @@
+.vscode/
+a.out
+temp.cpp
+temp.txt
+.DS_Store
