@@ -1,0 +1,75 @@
+-> -> Inserted 50 into Heap1
+-> Inserted 30 into Heap1
+-> Inserted 70 into Heap1
+-> Inserted 10 into Heap1
+-> Inserted 90 into Heap1
+-> Inserted 40 into Heap2
+-> Inserted 60 into Heap2
+-> Inserted 20 into Heap2
+-> Inserted 80 into Heap2
+-> 
+|-- 10
+|   |-- 30
+|   |   |-- 50
+|   |   \-- 70
+|   \-- 90
+-> 
+|-- 20
+|   |-- 40
+|   |   |-- 60
+|   \-- 80
+-> Deleted minimum element: 10
+-> Deleted minimum element: 30
+-> Inserted 5 into Heap1
+-> Inserted 100 into Heap2
+-> Heap2 merged to Heap1 and Heap2 is empty!
+-> 
+|-- 5
+|   |-- 20
+|   |   |-- 40
+|   |   |   |-- 60
+|   |   \-- 80
+|   |       |-- 100
+|   \-- 50
+|       |-- 70
+|       |   |-- 90
+-> 
+-> Deleted minimum element: 5
+-> Deleted minimum element: 20
+-> Inserted 65 into Heap1
+-> Inserted 85 into Heap2
+-> 
+|-- 40
+|   |-- 50
+|   |   |-- 70
+|   |   |   |-- 90
+|   |   \-- 80
+|   |       |-- 100
+|   \-- 60
+|       |-- 65
+-> Heap2 merged to Heap1 and Heap2 is empty!
+-> 
+|-- 40
+|   |-- 50
+|   |   |-- 70
+|   |   |   |-- 90
+|   |   \-- 80
+|   |       |-- 100
+|   \-- 60
+|       |-- 65
+|       \-- 85
+-> Deleted minimum element: 40
+-> Deleted minimum element: 50
+-> Deleted minimum element: 60
+-> Inserted 200 into Heap1
+-> Inserted 150 into Heap1
+-> 
+|-- 65
+|   |-- 80
+|   |   |-- 100
+|   |   \-- 85
+|   \-- 70
+|       |-- 90
+|       \-- 150
+|           |-- 200
+-> 

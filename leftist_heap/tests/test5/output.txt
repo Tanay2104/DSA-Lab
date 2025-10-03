@@ -1,0 +1,11 @@
+-> -> Inserted 10 into Heap1
+-> Inserted 5 into Heap1
+-> Inserted 20 into Heap2
+-> 
+|-- 5
+|   |-- 10
+-> 
+|-- 20
+-> Heap2 merged to Heap1 and Heap2 is empty!
+-> Deleted minimum element: 5
+-> 

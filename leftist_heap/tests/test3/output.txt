@@ -1,0 +1,26 @@
+-> -> Inserted 10 into Heap1
+-> Inserted 1 into Heap1
+-> Inserted 9 into Heap1
+-> Inserted 2 into Heap1
+-> Inserted 8 into Heap1
+-> Inserted 3 into Heap1
+-> Inserted 7 into Heap1
+-> Inserted 4 into Heap1
+-> Inserted 6 into Heap1
+-> Inserted 5 into Heap1
+-> Inserted 11 into Heap1
+-> Inserted 12 into Heap1
+-> 
+|-- 1
+|   |-- 3
+|   |   |-- 4
+|   |   |   |-- 7
+|   |   |   \-- 6
+|   |   \-- 5
+|   |       |-- 10
+|   |       \-- 11
+|   \-- 2
+|       |-- 9
+|       \-- 8
+|           |-- 12
+-> 
