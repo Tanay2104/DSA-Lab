@@ -131,9 +131,10 @@ int Trie::printAutoSuggestions(TrieNode* root, const std::string query)
 	std::sort(max_strings.begin(), max_strings.end(), [this](std::string s1, std::string s2) {
 		return this->count_map[s1] >= this->count_map[s2];
 	});
+	
 	int max_occurence = count_map[max_strings[0]];
 	while (count_map[max_strings.back()] < max_occurence) max_strings.pop_back();
-
+	std::sort(max_strings.begin(), max_strings.end());
 	for (auto s: max_strings) {
 		s = s.substr(word_1.length());
 		std::cout << s << std::endl;

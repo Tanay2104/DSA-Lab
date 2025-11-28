@@ -8,8 +8,11 @@ Node<T>* UnionFind<T>::FindSet(Node<T> * x) {
 
 template <typename T>
 Node<T>* UnionFind<T>::MakeSet(T x) {
-    x->parent = x;
-    x.size = 1;
+    Node* new_node = new Node;
+    new_node->data = x;
+    new_node->parent = new_node;
+    new_node.size = 1;
+    return new_node;
 }
 
 template <typename T>

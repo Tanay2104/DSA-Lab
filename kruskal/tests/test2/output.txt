@@ -1,0 +1,2 @@
+0-1
+Weight of MST: 100
